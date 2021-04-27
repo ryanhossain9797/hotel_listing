@@ -1,0 +1,60 @@
+2021-04-24 01:37:34.665 +06:00 [INF] Application Is Starting
+2021-04-24 01:37:35.620 +06:00 [INF] Now listening on: https://localhost:5001
+2021-04-24 01:37:35.626 +06:00 [INF] Now listening on: http://localhost:5000
+2021-04-24 01:37:35.628 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-04-24 01:37:35.628 +06:00 [INF] Hosting environment: Development
+2021-04-24 01:37:35.628 +06:00 [INF] Content root path: /Users/zireael/Storage/Dev/C#/hotel_listing
+2021-04-24 01:38:29.964 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-04-24 01:38:30.029 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 301 0 - 68.0176ms
+2021-04-24 01:38:30.036 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-04-24 01:38:30.145 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 108.5895ms
+2021-04-24 01:38:30.284 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-04-24 01:38:30.407 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.8430ms
+2021-04-24 01:38:39.024 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/WeatherForecast - -
+2021-04-24 01:38:39.055 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/WeatherForecast - - - 307 0 - 34.1763ms
+2021-04-24 01:40:06.216 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast - -
+2021-04-24 01:40:06.234 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/weatherforecast - - - 307 0 - 14.0386ms
+2021-04-24 01:40:11.952 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/weatherforecast - -
+2021-04-24 01:40:12.040 +06:00 [INF] Executing endpoint 'hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing)'
+2021-04-24 01:40:12.079 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[hotel_listing.WeatherForecast] Get() on controller hotel_listing.Controllers.WeatherForecastController (hotel_listing).
+2021-04-24 01:40:12.097 +06:00 [INF] Executing ObjectResult, writing value of type 'hotel_listing.WeatherForecast[]'.
+2021-04-24 01:40:12.125 +06:00 [INF] Executed action hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing) in 40.3525ms
+2021-04-24 01:40:12.128 +06:00 [INF] Executed endpoint 'hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing)'
+2021-04-24 01:40:12.130 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/weatherforecast - - - 200 - application/json;+charset=utf-8 178.9860ms
+2021-04-24 01:41:13.485 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/WeatherForecast - -
+2021-04-24 01:41:13.499 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/WeatherForecast - - - 307 0 - 15.6864ms
+2021-04-24 01:41:13.536 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/WeatherForecast - -
+2021-04-24 01:41:13.540 +06:00 [INF] Executing endpoint 'hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing)'
+2021-04-24 01:41:13.544 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[hotel_listing.WeatherForecast] Get() on controller hotel_listing.Controllers.WeatherForecastController (hotel_listing).
+2021-04-24 01:41:13.551 +06:00 [INF] Executing ObjectResult, writing value of type 'hotel_listing.WeatherForecast[]'.
+2021-04-24 01:41:13.556 +06:00 [INF] Executed action hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing) in 11.7499ms
+2021-04-24 01:41:13.557 +06:00 [INF] Executed endpoint 'hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing)'
+2021-04-24 01:41:13.557 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 20.8495ms
+2021-04-24 01:41:27.259 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/WeatherForecast - -
+2021-04-24 01:41:27.269 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/WeatherForecast - - - 307 0 - 13.9367ms
+2021-04-24 01:41:27.276 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/WeatherForecast - -
+2021-04-24 01:41:27.277 +06:00 [INF] Executing endpoint 'hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing)'
+2021-04-24 01:41:27.278 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[hotel_listing.WeatherForecast] Get() on controller hotel_listing.Controllers.WeatherForecastController (hotel_listing).
+2021-04-24 01:41:27.281 +06:00 [INF] Executing ObjectResult, writing value of type 'hotel_listing.WeatherForecast[]'.
+2021-04-24 01:41:27.285 +06:00 [INF] Executed action hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing) in 6.6621ms
+2021-04-24 01:41:27.286 +06:00 [INF] Executed endpoint 'hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing)'
+2021-04-24 01:41:27.287 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/WeatherForecast - - - 200 - text/json;+charset=utf-8 11.1096ms
+2021-04-24 01:41:48.396 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/WeatherForecast - -
+2021-04-24 01:41:48.411 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/WeatherForecast - - - 307 0 - 15.2858ms
+2021-04-24 01:41:48.456 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/WeatherForecast - -
+2021-04-24 01:41:48.459 +06:00 [INF] Executing endpoint 'hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing)'
+2021-04-24 01:41:48.461 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[hotel_listing.WeatherForecast] Get() on controller hotel_listing.Controllers.WeatherForecastController (hotel_listing).
+2021-04-24 01:41:48.465 +06:00 [INF] Executing ObjectResult, writing value of type 'hotel_listing.WeatherForecast[]'.
+2021-04-24 01:41:48.472 +06:00 [INF] Executed action hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing) in 9.8095ms
+2021-04-24 01:41:48.474 +06:00 [INF] Executed endpoint 'hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing)'
+2021-04-24 01:41:48.476 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/WeatherForecast - - - 200 - text/json;+charset=utf-8 18.8097ms
+2021-04-24 01:41:56.688 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/WeatherForecast - -
+2021-04-24 01:41:56.693 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/WeatherForecast - - - 307 0 - 5.0952ms
+2021-04-24 01:41:56.746 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/WeatherForecast - -
+2021-04-24 01:41:56.749 +06:00 [INF] Executing endpoint 'hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing)'
+2021-04-24 01:41:56.751 +06:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[hotel_listing.WeatherForecast] Get() on controller hotel_listing.Controllers.WeatherForecastController (hotel_listing).
+2021-04-24 01:41:56.753 +06:00 [INF] Executing ObjectResult, writing value of type 'hotel_listing.WeatherForecast[]'.
+2021-04-24 01:41:56.755 +06:00 [INF] Executed action hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing) in 4.3645ms
+2021-04-24 01:41:56.756 +06:00 [INF] Executed endpoint 'hotel_listing.Controllers.WeatherForecastController.Get (hotel_listing)'
+2021-04-24 01:41:56.758 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 12.4185ms
+2021-04-24 01:42:29.142 +06:00 [INF] Application is shutting down...

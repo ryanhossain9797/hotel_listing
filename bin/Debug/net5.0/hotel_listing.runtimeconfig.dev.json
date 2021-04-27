@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/zireael/.dotnet/store/|arch|/|tfm|",
+      "/Users/zireael/.nuget/packages"
+    ]
+  }
+}
